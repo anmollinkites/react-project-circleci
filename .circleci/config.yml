@@ -11,7 +11,7 @@ jobs:
       - image: cimg/node:16.4.0
     steps:
       - checkout
-       run:
+      - run:
           name: Install Dependencies
           command: npm install
       - run:
